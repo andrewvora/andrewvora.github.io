@@ -1,0 +1,35 @@
+{
+	"movies" : [
+		{
+			"quote": "Fasten your seat belts - it's going to be a bumpy night.",
+			"author": "Margo Channing, All About Eve"
+		},
+		{
+			"quote": "The things you own end up owning you.",
+			"author": "Narrator, Fight Club"
+		},
+		{
+			"quote": "This is your life and it's ending one minute at a time.",
+			"author": "Tagline, Fight Club"
+		},
+		{
+			"quote": "I don't have time for this shit.",
+			"author": "Trinity, The Matrix Revolutions"
+		}
+	],
+
+	"other" : [
+		{
+			"quote": "It's not the most robust solution, but it'll do.",
+			"author": "Me, admin"
+		},
+		{
+			"quote": "Welcome to my domain.",
+			"author": "Me, admin"
+		},
+		{
+			"quote": "I was going to use the WikiQuotes API, but that had too many calls.",
+			"author": "Me, admin"
+		}
+	]
+}
