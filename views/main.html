@@ -1,0 +1,39 @@
+<div class="row first-row" style="background: black;">
+	<div class="profile">
+		<div class="container">
+			<div class="hidden-lg hidden-sm visible-xs hidden-md col-xs-12 text-center">
+				<img class="img-responsive spin" src="images/hires_gear.svg" ng-click="generateQuote()"/>
+			</div>	
+			<div id="quoteBox" class="col-lg-9 col-sm-8 col-xs-12">
+				<p class="text-inverse">
+					<span id="headliner"></span>
+				</p>
+				<p class="text-inverse">
+					<span id="subtitle"></span>
+				</p>
+			</div>
+			<div class="col-lg-3 col-sm-3 hidden-xs text-center">
+				<img class="img-responsive spin" src="images/hires_gear.svg" ng-click="generateQuote()"/>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<div class="row first-row" ng-init="showContactInfo = false">
+	<div class="container text-center">
+	<h3>What best describes the purpose of your visit?</h3>
+		<a href="#/resume" class="btn btn-lg btn-choice fade-anim">Hiring</a>
+		<a href="#/" class="btn btn-lg btn-choice fade-anim" ng-click="showContactInfo = true">Getting in Touch</a>
+		<!--<a href="#/stats" class="btn btn-lg btn-choice fade-anim">Statistics</a>-->
+		<a href="#/about" class="btn btn-lg btn-choice fade-anim">Learning About Me</a>
+	</div>
+	<div class="container alert-modal fade-anim" ng-show="showContactInfo">
+		<div class="row">
+			<span class="glyphicon glyphicon-earphone"></span>(561) 568-9916
+		</div>
+		<div class="row">
+			<span class="glyphicon glyphicon-envelope"></span>andrewjvora@gmail.com
+		</div>
+		<a ng-click="showContactInfo = false" href class="btn btn-default">Ok, got it</a>
+	</div>
+</div>

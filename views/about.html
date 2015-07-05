@@ -1,0 +1,63 @@
+<div class="container">
+	<div class=" first-row" ng-init="showContactInfo">
+		<div>
+			<h1>About Me</h1>
+			<div class="row container">
+				<p class="subtitle text-muted">
+					<a class="fade-anim">Developer</a> | 
+					<a class="fade-anim">Thinker</a> | 
+					<a class="fade-anim">Human Being</a>
+				</p>	
+				<p class="block-text">
+					I recently graduated from the University of Florida with a Bachelor of Science for Computer Science. I have a deep passion for learning, especially when it comes down to web development. I haven't been doing it for (that) long, but I am confident in my abilities to pick anything up with a running start.</p>
+				<p class="block-text">
+					It's not just web development that I'm familiar with, but also other languages like C#, Java, Ruby, and Python. I dabble in a lot of different environments and technologies. Recently, I've found myself enthralled with Android applications.</p>
+				<p class="block-text">
+					In my spare time, I do a lot of reading, followed by a lot of TV, followed by a lot of sleeping. If you need to get in contact with me, check out my <a href ng-click="showContactInfo=true">contact</a> info. Otherwise, if you want to scout me for a project or a position, take a look at my <a href="#/resume">resume</a>. I'm actually looking for a job right now!</p>
+				</p>
+			</div>
+		</div>
+		<div class="container alert-modal fade-anim" ng-show="showContactInfo">
+			<div class="row">
+				<span class="glyphicon glyphicon-earphone"></span>(561) 568-9916
+			</div>
+			<div class="row">
+				<span class="glyphicon glyphicon-envelope"></span>andrewjvora@gmail.com
+			</div>
+			<a ng-click="showContactInfo = false" href class="btn btn-default">Ok, got it</a>
+		</div>
+	</div>
+	<h1>My Websume</h1>
+	<div class="row">
+	    <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="https://github.com/FaytxZen" target="_blank">
+	             <img src="images/icons/webicon-github.svg" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	    <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="https://bitbucket.org/FaytxZen" target="_blank">
+	             <img src="images/icons/webicon-bitbucket.svg" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	    <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="https://www.linkedin.com/andrewvora" target="_blank">
+	             <img src="images/icons/webicon-linkedin.svg" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	     <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="https://www.quora.com/Andrew-Jaru" target="_blank">
+	             <img src="images/icons/webicon-quora.svg" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	    <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="https://www.hackerrank.com/FaytxZen" target="_blank">
+	             <img src="images/icons/webicon-hackerrank-lg.png" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	     <div class="col-lg-2 col-sm-2 col-xs-4">
+	        <a href="http://www.codecademy.com/FaytxZen" target="_blank">
+	             <img src="images/icons/codecademy-lg.png" class="thumbnail img-responsive">
+	        </a>
+	    </div>
+	</div>
+</div>
