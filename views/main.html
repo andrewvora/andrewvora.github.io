@@ -5,12 +5,8 @@
 				<img class="img-responsive spin" src="images/hires_gear.svg" ng-click="generateQuote()"/>
 			</div>	
 			<div id="quoteBox" class="col-lg-9 col-sm-8 col-xs-12">
-				<p class="text-inverse">
-					<span id="headliner"></span>
-				</p>
-				<p class="text-inverse">
-					<span id="subtitle"></span>
-				</p>
+				<p class="text-inverse"><span id="headliner"></span></p>
+				<p class="text-inverse"><span id="subtitle"></span></p>
 			</div>
 			<div class="col-lg-3 col-sm-3 hidden-xs text-center">
 				<img class="img-responsive spin" src="images/hires_gear.svg" ng-click="generateQuote()"/>
@@ -19,21 +15,14 @@
 	</div>
 </div>
 
-<div class="row first-row" ng-init="showContactInfo = false">
+<div class="row first-row" ng-init="showContactInfo=false">
 	<div class="container text-center">
-	<h3>What best describes the purpose of your visit?</h3>
-		<a href="#/resume" class="btn btn-lg btn-choice fade-anim">Hiring</a>
-		<a href="#/" class="btn btn-lg btn-choice fade-anim" ng-click="showContactInfo = true">Getting in Touch</a>
-		<!--<a href="#/stats" class="btn btn-lg btn-choice fade-anim">Statistics</a>-->
-		<a href="#/about" class="btn btn-lg btn-choice fade-anim">Learning About Me</a>
+	<h3>You've found my website! What now?</h3>
+		<a href="#/resume" class="btn btn-lg btn-choice fade-anim">Hire Me</a>
+		<a href="#/" class="btn btn-lg btn-choice fade-anim" ng-click="showContactInfo = true">Get in Touch</a>
+		<a href="#/about" class="btn btn-lg btn-choice fade-anim">Read About Me</a>
 	</div>
 	<div class="container alert-modal fade-anim" ng-show="showContactInfo">
-		<div class="row">
-			<span class="glyphicon glyphicon-earphone"></span>[See <a href="#/resume">Resume</a>]
-		</div>
-		<div class="row">
-			<span class="glyphicon glyphicon-envelope"></span>andrewjvora@gmail.com
-		</div>
-		<a ng-click="showContactInfo = false" href class="btn btn-default">Ok, got it</a>
+		<div info-modal></div>
 	</div>
 </div>

@@ -11,25 +11,38 @@
 		{
 			"quote": "This is your life and it's ending one minute at a time.",
 			"author": "Tagline, Fight Club"
-		},
-		{
-			"quote": "I don't have time for this shit.",
-			"author": "Trinity, The Matrix Revolutions"
 		}
 	],
-
+	"television" : [
+		{
+			"quote": "Most coders think debugging hardware is about fixing a mistake. But that's bullshit.",
+			"author": "Elliot, Mr. Robot"
+		},
+		{
+			"quote": "The difference between the novice and the master is that the master has failed more times than the novice has tried.",
+			"author": "Koro, Assassination Classroom"
+		},
+		{
+			"quote": "It is better to be hated for what you are. Than to be loved for what you are not.",
+			"author": "Hachiman Hikigaya, Teen Romantic Comedy SNAFU"
+		}
+	],
 	"other" : [
 		{
-			"quote": "It's not the most robust solution, but it'll do.",
-			"author": "Me, admin"
+			"quote": "A C program is like a fast dance on a newly waxed dance floor by people carrying razors.",
+			"author": "Waldi Ravens"
 		},
 		{
-			"quote": "Welcome to my domain.",
-			"author": "Me, admin"
+			"quote": "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.",
+			"author": "Mosher's Law of Software Engineering"
 		},
 		{
-			"quote": "I was going to use the WikiQuotes API, but that had too many calls.",
-			"author": "Me, admin"
+			"quote": "Talk is cheap. Show me the code.",
+			"author": "Linus Torvalds"
+		},
+		{
+			"quote": "If McDonalds were run like a software company, one out of every hundred Big Macs would give you food poisoning, and the response would be, ‘We’re sorry, here’s a coupon for two more.’",
+			"author": "Mark Minasi"
 		}
 	]
 }
